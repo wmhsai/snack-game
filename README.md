@@ -1,33 +1,25 @@
-# 🚀 Space Shooter
+# 🐍 Snake Game
 
-A modern 2D arcade-style Space Shooter game built with **React**, **TypeScript**, and the **HTML Canvas API**.
+A simple 2D Snake Game built with **React**, **TypeScript**, and **HTML Canvas**.
 
-Defend the galaxy, destroy enemy spaceships, survive incoming attacks, and achieve the highest score!
-
-## ✨ Features
-
-- Real-time 2D game rendering with HTML Canvas
-- Player spaceship movement
-- Keyboard controls (Arrow Keys and WASD)
-- Laser shooting mechanics
-- Random enemy spawning
-- Collision detection
-- Dynamic score tracking
-- Lives and Game Over system
-- Pause and Resume functionality
-- Restart game functionality
-- Animated starfield background
-- Responsive modern UI
-- Delta-time-based movement using `requestAnimationFrame`
-
-## 🛠️ Technologies
+## 🚀 Technologies
 
 - React
 - TypeScript
 - Vite
 - HTML Canvas API
-- CSS3
-- Yarn
+- Tailwind CSS
+
+## ✨ Features
+
+- 2D game rendering using Canvas
+- Keyboard controls (Arrow Keys)
+- Snake movement
+- Food generation
+- Score tracking
+- Collision detection
+- Game Over state
+- Restart functionality
 
 ## 📦 Installation
 
@@ -40,7 +32,7 @@ git clone https://github.com/wmhsai/snack-game.git
 Navigate to the project directory:
 
 ```bash
-cd space-shooter
+cd snake-game
 ```
 
 Install dependencies:
@@ -61,64 +53,41 @@ Open the local URL provided by Vite in your browser.
 
 | Key | Action |
 |---|---|
-| ↑ / W | Move Up |
-| ↓ / S | Move Down |
-| ← / A | Move Left |
-| → / D | Move Right |
-| Space | Shoot |
-| P | Pause / Resume |
+| ↑ Arrow Up | Move Up |
+| ↓ Arrow Down | Move Down |
+| ← Arrow Left | Move Left |
+| → Arrow Right | Move Right |
 
-## 🏆 Game Rules
+## 🏗️ Build
 
-- Destroy enemy spaceships to earn points.
-- Each destroyed enemy gives you 10 points.
-- Avoid enemy spaceships.
-- Losing all 3 lives ends the game.
-- Survive as long as possible and beat your high score!
-
-## 📁 Project Structure
-
-```text
-space-shooter/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── App.tsx
-│   ├── SpaceShooter.tsx
-│   ├── index.css
-│   └── main.tsx
-├── index.html
-├── package.json
-├── tsconfig.json
-└── vite.config.ts
-```
-
-## 🏗️ Production Build
-
-Build the project:
+Create a production build:
 
 ```bash
 yarn build
 ```
 
-Preview the production build:
+Preview production build:
 
 ```bash
 yarn preview
 ```
 
-## 🧠 Core Concepts
+## 📁 Project Structure
 
-This project demonstrates important game development concepts:
-
-- Canvas 2D Rendering
-- Game Loop Architecture
-- `requestAnimationFrame`
-- React Hooks (`useState`, `useEffect`, `useRef`)
-- Keyboard Event Handling
-- Collision Detection
-- Delta Time
-- Object and State Management
+```text
+snake-game/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.tsx
+│   ├── SnakeGame.tsx
+│   ├── main.tsx
+│   └── index.css
+├── index.html
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+```
 
 ## 📄 License
 
